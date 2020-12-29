@@ -13,7 +13,7 @@ export const FlexRowBlock = styled.div`
     flex: 1;
 
     display: flex;
-    background-image: url(${props => props.mainBackground});
+    background: linear-gradient(to left, rgba(0,0,0,.7),  transparent), url(${props => props.mainBackground});
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -125,7 +125,7 @@ export const MainBlock = styled.main`
 
     & > .content {
         & > h1 {
-            font-size: 2rem;
+            font-size: 3rem;
             font-weight: 700;
             color: #fff;
 
@@ -159,7 +159,7 @@ export const MainFooter = styled.div`
 
     background-color: #777;
 
-    opacity: .5;
+    background-color: rgba(70,70,70,.7);
 
     & > h1 {
         color: #fff;
