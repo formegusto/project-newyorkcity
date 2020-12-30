@@ -139,6 +139,10 @@ export const SideBlock = styled.div`
     
     display: flex;
     flex-direction: column;
+
+    & > a > div {
+        box-sizing: border-box;
+    }
 `;
 
 export const SideHeadItem = styled.div`

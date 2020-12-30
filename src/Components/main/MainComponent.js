@@ -74,7 +74,7 @@ function MainComponent() {
                         <SideHeadItem
                             style={{
                             "borderLeft": "1px solid #999",
-                            "borderBottom": "1px solid #999"
+                            "borderBottom": "1px solid #999",
                             }}>
                                 <div className="content">
                                     <h2><em>PRODUCT</em>AWARDS</h2>

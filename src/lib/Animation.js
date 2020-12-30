@@ -9,3 +9,11 @@ export const waveAni = keyframes`
         opacity: .6;
     }
 `;
+
+export const imageAni = keyframes`
+    from {
+        background-size: 120% 120%;
+    } to {
+        background-size: 100% 100%;
+    }
+`;
